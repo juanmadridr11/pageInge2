@@ -84,11 +84,7 @@ section p{
     color: white;
     font-weight: bold;
 }
-.images{
-    border-bottom: 2px solid #189bd3;
-    border-top: 2px solid #189bd3;
-  
-}
+
 ul li:hover{
     background: transparent;
 }
@@ -138,7 +134,9 @@ div input{
     border: 2px solid #189bd3 ;
     background: #eee;
 }
-
+#img-10{
+    width: 25.3rem !important;
+}
 
 
 
@@ -187,8 +185,7 @@ div input{
         
     }
     .images{
-        border-bottom: 2px solid #189bd3;
-        border-top: 2px solid #189bd3;
+      
         width: 19rem !important;
         margin-left: 0 !important;
         
@@ -249,6 +246,9 @@ div input{
     }
     .section-2 h2{
         margin-top: 2rem !important;
+    }
+    #img-10{
+        width: 19.2rem !important;
     }
     
     
