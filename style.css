@@ -1,0 +1,254 @@
+*{
+    transition: 1s;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+   
+    
+    background:-webkit-linear-gradient(right,#36393e,#282b30);
+    color: #eee !important;
+    font-family: 'Roboto',sans-serif;
+
+}
+header{
+    
+    display: flex; 
+    flex-flow: column wrap; 
+    align-content: center;
+    align-items: baseline;
+    align-items: center;
+    
+}
+
+ul li{
+
+    list-style: none;
+    padding: 0.2rem 2.5rem;
+    margin-right: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    background: #326ada83;
+    font-weight: bold;
+}
+nav ul{
+    display: flex; 
+    flex-flow: row wrap;
+}
+.logo{
+
+    margin-bottom: 1rem;
+    
+
+}
+#li-1{
+    margin-left: 2rem;
+}
+main{
+    
+    background: #36393e;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-top: 2rem !important;
+    padding: 1.5rem 5rem !important;
+    border-top-left-radius: 4rem;
+    border-bottom-left-radius: 1rem;
+    
+    
+}
+section p{
+    margin-bottom: 1.5rem;
+}
+.buttons{
+
+    display: flex;
+    flex-flow:row wrap ;
+    justify-content: center;
+    margin-left: 2rem;
+
+
+}
+.buttons button{
+    border-radius: 1rem;
+    border:none;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.7rem;
+    cursor: pointer;
+    background: #189bd3;
+    color: white;
+    font-weight: bold;
+}
+.images{
+    border-bottom: 2px solid #189bd3;
+    border-top: 2px solid #189bd3;
+  
+}
+ul li:hover{
+    background: transparent;
+}
+.logo img:hover{
+    width: 10rem !important;
+}
+.section-1 h1{
+    font-size: 1.2rem;
+}
+.section-1 h1:hover{
+    font-size:1.4rem !important ;
+}
+.section-1 p{
+    font-size: 0.9rem;
+    color: #eee;
+}
+button:hover{
+    background: transparent !important;
+}
+footer{
+    width: 40% !important;
+    background: #36393e;
+    border-radius: 2rem;
+    
+}
+footer .section-2 h2{
+    width: 110%;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-bottom: 1.5rem;
+    background: #326ada83;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+}
+footer .section-2 h2:hover{
+    background: transparent;
+}
+.proyects button{
+    margin-bottom:-1rem ;
+}
+div input{
+    width: 12rem;
+    height: 2rem;
+    border-radius: 1rem;
+    outline: none;
+    border: 2px solid #189bd3 ;
+    background: #eee;
+}
+
+
+
+
+@media screen and (max-width:900px) {
+
+    header{
+        display: flex; 
+        flex-flow: column wrap; 
+        align-content: center;
+        align-items: center;
+        
+    }
+
+    ul li{
+    
+        font-size: 0.8rem;
+        list-style: none;
+        padding: 0.2rem 1rem;
+       
+        margin-right: 1rem;
+        
+    }
+    nav ul{
+        display: flex; 
+        flex-flow: row wrap;
+        padding: 0.5rem 1rem;
+    
+        
+    }
+    .logo{
+
+        margin-bottom: 0rem;
+        
+    }
+    #li-1{
+        margin-left: 0.5rem;
+    }
+    main{
+
+        align-items:center;
+        display: flex;
+        flex-flow: column wrap;
+        margin-top: 1rem;
+        padding: 1.5rem 2.7rem !important;
+        
+        
+    }
+    .images{
+        border-bottom: 2px solid #189bd3;
+        border-top: 2px solid #189bd3;
+        width: 19rem !important;
+        margin-left: 0 !important;
+        
+        
+        
+    }
+    .carousel-control-prev{
+        margin-left: 0 !important;
+    }
+    .section-1 p{
+
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+
+    }
+    .buttons{
+       
+        margin-left: 0;
+    }
+    .buttons button{
+        font-size: 0.5rem;
+        padding: 0.2rem 0.5rem;
+        background: #189bd3;
+        color: white;
+        font-weight: bold;
+    }
+    .section-1 h1{
+        font-size: 1rem;
+    }
+    header p{
+        font-size: 1rem !important;
+        margin-top: 2rem !important;
+    }
+    .proyects a{
+        font-size: 0.8rem !important;
+    }
+    .section-1 h1:hover{
+        font-size:0.9rem ;
+    }
+    .section-1 .buttons{
+        margin-bottom: 2rem;
+    }
+    footer{
+        
+        width: 100% !important;
+       
+        
+    }
+    footer .section-2 h2{
+        width: 100%;
+        font-size: 0.8rem;
+        line-height: 1rem;
+        margin-bottom: 1.5rem;
+        background: #326ada83;
+        padding: 1rem;
+        border-radius: 1rem;
+        
+    }
+    .section-2 h2{
+        margin-top: 2rem !important;
+    }
+    
+    
+  
+}
