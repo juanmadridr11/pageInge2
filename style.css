@@ -69,6 +69,7 @@ section p{
     flex-flow:row wrap ;
     justify-content: center;
     margin-left: 2rem;
+    outline: none;
 
 
 }
