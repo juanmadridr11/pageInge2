@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:'Roboto',sans-serif;
+    font-family: 'Roboto',sans-serif;
     
 }
 body{
@@ -140,6 +140,7 @@ div input{
 
 
 
+
 @media screen and (max-width:900px) {
 
     header{
@@ -185,12 +186,13 @@ div input{
         
     }
     .images{
-      
+       
         width: 19rem !important;
         margin-left: 0 !important;
         
-        
-        
+    }
+    #img-10{
+        width: 19.2rem !important;
     }
     .carousel-control-prev{
         margin-left: 0 !important;
@@ -247,10 +249,31 @@ div input{
     .section-2 h2{
         margin-top: 2rem !important;
     }
-    #img-10{
-        width: 19.2rem !important;
-    }
     
     
   
+}
+@media screen and (max-width:350px) {
+
+    ul li{
+    
+        font-size: 0.5rem;
+        list-style: none;
+        padding: 0.2rem 1rem;
+       
+        margin-right: 1rem;
+        
+    }
+    .container p{
+        font-size:0.6rem ;
+    }
+    header p{
+        font-size: 0.8rem !important;
+    }
+    .section-1 h1{
+        font-size: 0.8rem ;
+    }
+    .images{
+        width: 15rem !important;
+    }
 }
