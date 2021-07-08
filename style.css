@@ -276,6 +276,9 @@ div input{
     .images{
         width: 15rem !important;
     }
+    #img-10{
+        width: 15.2rem !important;
+    }
 }
 @media screen and (max-width:290px) {
 
@@ -299,5 +302,8 @@ div input{
     }
     .images{
         width: 13rem !important;
+    }
+    #img-10{
+        width: 13.2rem !important;
     }
 }
